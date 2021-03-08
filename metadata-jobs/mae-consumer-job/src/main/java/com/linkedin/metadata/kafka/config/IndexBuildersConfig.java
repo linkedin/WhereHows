@@ -46,7 +46,7 @@ public class IndexBuildersConfig {
     builders.add(new CorpGroupIndexBuilder());
     builders.add(new CorpUserInfoIndexBuilder());
     builders.add(new ChartIndexBuilder());
-    builders.add(new DatasetIndexBuilder());
+    builders.add(new DatasetIndexBuilder(restliClient));
     builders.add(new DataProcessIndexBuilder());
     builders.add(new DashboardIndexBuilder());
     builders.add(new MLModelIndexBuilder());
