@@ -486,7 +486,7 @@ Pull metadata from DBT output files:
   - Not required if target_platform configuration provided.
 - target_platform: Optional.
   - If provided the ingestion tool will not attempt to load a catalog file.
-  - In this case we use DBT metadata is used to enrich an existing data platform with DBT sourced lineage and metadata.
+  - In this case we use DBT metadata to enrich an existing data platform with DBT sourced lineage and metadata.
 
 ```yml
 source:
