@@ -36,6 +36,7 @@ class DBTConfig(ConfigModel):
     manifest_path: str
     catalog_path: str
     env: str = "PROD"
+    platfrom: str = "dbt"
 
 
 class DBTColumn:
